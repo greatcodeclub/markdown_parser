@@ -2,6 +2,8 @@
 
 A demo project from the http://greatcodeclub.com/ to play with parsing and Jison.
 
+Shows how to use states in the lexer.
+
 ## Installation
 
 You need:
