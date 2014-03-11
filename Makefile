@@ -1,8 +1,7 @@
 BIN = `npm bin`
 
 parser.js: grammar.jison tokens.jisonlex
-	# ${BIN}/jison $^ -o $@
-	node node_modules/jison/lib/cli.js $^ -o $@
+	${BIN}/jison $^ -o $@
 
 test: parser.js
 	node test.js
